@@ -1,10 +1,5 @@
-# Importing pandas and matplotlib
 import pandas as pd
 import matplotlib.pyplot as plt
-
-# Read in the Netflix CSV as a DataFrame
-netflix_df = pd.read_csv("netflix_data.csv")
-netflix_df.head()
 
 # List of movies enter 1990 and 1999
 movies = netflix_df[["title", "release_year", "duration", "genre"]]
@@ -13,10 +8,21 @@ print(old_movies)
 
 print("What was the most common film length in the 1990s?")
 # Old movies's duration histogram
-plt.hist(old_movies["duration"])
-plt.title("Movies's duration enter 1990 and 1999")
-plt.xlabel("duration")
-plt.ylabel("Number of movies")
+plt.figure(figsize=(10, 6))
+netflix_red = '#E50914'
+netflix_dark = '#221F1F'
+netflix_grey = '#4E4E4E'
+plt.hist(old_movies["duration"], bins=10, color=netflix_red, edgecolor=netflix_dark, alpha=0.8)
+plt.title("Movies's duration enter 1990 and 1999", fontsize=14, color='white')
+plt.xlabel("duration (min)", fontsize=12, color='white')
+plt.ylabel("Number of movies", fontsize=12, color='white')
+plt.gca().set_facecolor(netflix_dark)
+plt.gcf().set_facecolor(netflix_dark)
+plt.tick_params(colors='white')
+for spine in plt.gca().spines.values():
+    spine.set_color(netflix_grey)
+    plt.legend(facecolor=netflix_dark, edgecolor=netflix_grey, labelcolor='white')
+    plt.tight_layout()
 plt.show()
 
 duration = 110
