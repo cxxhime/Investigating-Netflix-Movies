@@ -58,7 +58,7 @@ Le projet inclut un histogramme montrant la distribution des durées des films d
 - Analyse des films d'action courts de cette période
 
 #### Auteur 🙆🏻‍♀️
-Nana CHEN
+Nana CHEN - [Mail](cxxnana@gmail.com) - [LinkedIn](https://www.linkedin.com/in/cxxhime/)
 
 #### Remarques
 Cette analyse fait partie d'un projet DataCamp et sert de démonstration des compétences en analyse de données avec Python.
