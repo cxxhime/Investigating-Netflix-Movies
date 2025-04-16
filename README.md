@@ -2,6 +2,9 @@
 #### Description
 Ce projet analyse un dataset de films Netflix, en se concentrant particulièrement sur les films sortis dans les années 90 (1990-1999). L'analyse explore les durées des films et identifie spécifiquement les films d'action courts de cette période.
 
+![image](https://github.com/user-attachments/assets/5bacbb83-2795-43aa-8034-7a784826e5f1)
+
+
 #### Données
 L'analyse utilise le fichier netflix_data.csv qui contient des informations sur les contenus disponibles sur Netflix, incluant:
 
