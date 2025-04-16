@@ -13,18 +13,21 @@ L'analyse utilise le fichier netflix_data.csv qui contient des informations sur 
 #### Analyse et Visualisations
 L'analyse comprend:
 
-1. Filtrage des films des années 90
+##### 1. Filtrage des films des années 90
 
 - Extraction des films sortis entre 1990 et 1999
+  
+<img width="636" alt="Capture d’écran 2025-04-16 à 19 51 09" src="https://github.com/user-attachments/assets/6a0afcd6-f2c9-4e7a-9e66-bd3b11d40baa" />
 
 
-2. Analyse de la durée des films
+
+##### 2. Analyse de la durée des films
 
 - Création d'un histogramme montrant la distribution des durées des films des années 90
 - Identification de la durée la plus commune pour les films de cette période
 
 
-3. Focus sur les films d'action courts
+##### 3. Focus sur les films d'action courts
 
 - Identification des films d'action de moins de 90 minutes
 - Comptage du nombre total de films d'action courts dans les années 90
@@ -33,6 +36,9 @@ L'analyse comprend:
 
 #### Visualisations 📊
 Le projet inclut un histogramme montrant la distribution des durées des films des années 90, permettant d'identifier visuellement les tendances dans la durée des films de cette décennie.
+
+<img width="922" alt="Capture d’écran 2025-04-16 à 19 42 20" src="https://github.com/user-attachments/assets/abb26724-5bb5-4334-966b-9e7bf85837b3" />
+
 
 #### Technologies utilisées
 
